@@ -16,6 +16,7 @@ button.addEventListener("click", function () {
     const doneCheckbox = document.createElement("input");
     doneCheckbox.className = "app__task-done";
     doneCheckbox.type = "checkbox";
+    
     doneCheckbox.addEventListener("change", function () {
       if (doneCheckbox.checked) {
         li.classList.add("app__task-done");

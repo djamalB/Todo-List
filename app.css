@@ -90,3 +90,8 @@ body {
     .app__task-done .app__task-text {
       text-decoration: line-through;
     }
+
+
+    .app__task-list .task-li{
+      display: flex;
+    }
